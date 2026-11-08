@@ -3,11 +3,11 @@ cask "terrio" do
   arch arm: "aarch64", intel: "x86_64"
   os macos: "apple-darwin", linux: "unknown-linux-musl"
 
-  version "0.7.0"
-  sha256 arm:          "0f915d9be5bf891d6e47ff976d75fb16b47bea118d97de228d461383226c328a",
-         intel:        "8ac40f0fb357f911ec25769bc3a035239bce8c30c88cea88ee2ccf0b386e8d8c",
-         arm64_linux:  "46551aff2bfad27294c5347fb42f412a8bed8d5fc08106d3e400ba9fd8463900",
-         x86_64_linux: "a85d920b71e7f566c3bebb8a7ec3b469174cfe69ebce6a6f0ba3c055ca5a0fc8"
+  version "0.8.0"
+  sha256 arm:          "d3e7daff9f149fc8ccd7e2376ea7bb7ca11e156a1dedcf173338ef073cc858bd",
+         intel:        "f2516e81f98199decd0e2a6c2beb786935cc9d9cbc6115c12538841de60c7bae",
+         arm64_linux:  "ba60c0682a5b8beb7939e1ab02b13ae5afb231575f4e7f5be2d256d7e8b01f8b",
+         x86_64_linux: "25955b9789c00af0a0566f01256575993cc02374224a608a33840046a8548ec6"
 
   url "https://github.com/opengeos/terrio/releases/download/v#{version}/terrio-cli-v#{version}-#{arch}-#{os}.tar.gz"
   name "Terrio"
